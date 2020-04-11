@@ -1,0 +1,17 @@
+{
+  "name": "visual-uts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^8.2.1",
+    "init": "^0.1.2",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}

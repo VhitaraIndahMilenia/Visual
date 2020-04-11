@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Keliling Jajar Genjang</title>
+<script language="javascript">
+        function KllJajarGenjang(){
+                 A=eval(document.kalk.value1.value);
+                 T=eval(document.kalk.value2.value);
+                 alert("Hasil Keliling Jajar Genjang " + " = " + 2*(A+T));
+        }
+</script>
+</head>
+<body> 
+        <center>
+        <h2>Menghitung Keliling Jajar Genjang</h2>
+        <form  name="kalk" method="post">
+              <input type="inputbox" value="Alas" name="value1"><br><br>
+              <input type="inputbox" value="Tinggi" name="value2"><br><br>
+              <input type="button" value="Hasil" onClick="KllJajarGenjang();">
+              <input type="reset" value="reset">
+        </form>
+        </center>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Luas Kerucut</title>
+<style>
+                input.btn
+                                {color: black;
+                                background: pink;
+                                border: 1px outset black;
+                                font-family: "times new roman", Times, serif;
+                                font-size: 14px;
+                                font-weight: bold;
+                                width : auto;}
+                </style>
+</head>
+<center>
+    <b><font color="black" size="5">
+    <p>Luas Kerucut</p>
+    <form id="Formulir" name="formulir" method="post" action="">
+                    <table width="400" border="0">
+                    <tr><td width="100"><b><font color="blue" size="3">Jari</td>
+                    <td><input name="jari" type="text" id="jari"></td></tr>
+                    <tr><td width="100"><b><font color="black" size="3">Tinggi</td>
+                    <td><input name="tinggi" type="text" id="tinggi"></td></tr>
+                    <tr><td width="100"><b><font color="blue" size="3">Panjang garis</td>
+                    <td><input name="pembuat" type="text" id="pembuat"></td></tr>
+                    <tr></tr> <td><b><font color="black" size="3">Hasil Penghitungan Luas</td>
+                    <td><input name="volume" type="text" id="luas"></td></tr>
+    </table>
+    <p>
+        <p><input name="cari" type="button" id="cari" value="hitung" class="btn"
+            onclick="cariluas()"/></p>
+            </form>
+            <p>&nbsp;</p>
+            <script laguage="javascript">
+            function cariluas()
+            {
+            jari=formulir.jari.value;
+            jari=formulir.jari.value;
+            pembuat=formulir.pembuat.value;
+            tinggi=formulir.tinggi.value;
+            formulir.volume.value=22/7*jari* (pembuat+jari);
+            }
+        </script>
+</body>
+</html>

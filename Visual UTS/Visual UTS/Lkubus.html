@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+                input.btn
+                                {color: white;
+                                background: pink;
+                                border: 1px outset black;
+                                font-family: "times new roman", Times, serif;
+                                font-size: 14px;
+                                font-weight: bold;
+                                width : auto;}
+                </style>
+</head>
+<body>
+<center>
+<b><font color="Red" size="5">
+<p>Luas Kubus</p>
+<form id="Formulir" name="formulir" method="post" action="">
+                <table width="500" border="0">
+                <tr><td width="178"><b><font color="green" size="3">Sisi</td>
+                <td><input name="sisi" type="text" id="sisi"></td></tr>
+                <tr><td><b><font color="green" size="3">Hasil Luas Permukaan</td>
+                <td><input name="luas" type="text" id="luas"></td></tr>
+</table>
+<p><input name="cari" type="button" id="cari" value="hitung" class="btn"
+    onclick="cariluas()"/></p>
+</form>
+</center>
+<script laguage="javascript">
+function cariluas()
+{
+sisi=formulir.sisi.value
+sisi=formulir.sisi.value
+sisi=formulir.sisi.value
+formulir.luas.value= 6*sisi*sisi;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Luas Alas Kerucut</title>
+<style>
+                input.btn
+                                {color: white;
+                                background: pink;
+                                border: 1px outset black;
+                                font-family: "times new roman", Times, serif;
+                                font-size: 14px;
+                                font-weight: bold;
+                                width : auto;}
+                </style>
+</head>
+<center>
+    <b><font color="black" size="5">
+    <p>Luas Prisma Segitiga</p>
+    <form id="Formulir" name="formulir" method="post" action="">
+                    <table width="500" border="0">
+                    <tr><td width="178"><b><font color="red" size="3">Tinggi segitiga</td>
+                    <td><input name="tinggisegitiga" type="text" id="tinggisegitiga"></td></tr>
+                    <tr><td width="178"><b><font color="red" size="3">Alas prisma</td>
+                    <td><input name="alasprisma" type="text" id="alasprisma"></td></tr>
+                    <tr><td width="178"><b><font color="red" size="3">Tinggi prisma</td>
+                    <td><input name="tinggiprisma" type="text" id="tinggiprisma"></td></tr>
+                    <tr><td><b><font color="red" size="3">Hasil Penghitungan Luas</td>
+                    <td><input name="luas" type="text" id="luas"></td></tr>
+    </table>
+    <p>
+        <p><input name="cari" type="button" id="cari" value="hitung" class="btn"
+            onclick="cariluas()"/></p>
+            </form>
+            <p>&nbsp;</p>
+            <script laguage="javascript">
+            function cariluas()
+            {
+            tinggisegitiga=formulir.tinggisegitiga.value;
+            alasprisma=formulir.alasprisma.value;
+            tinggiprisma=formulir.tinggiprisma.value;
+            formulir.luas.value = (tinggisegitiga*alasprisma) + (3*tinggiprisma);
+            }
+        </script>
+</body>
+</html>
