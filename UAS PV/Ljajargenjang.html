@@ -1,0 +1,33 @@
+<html>
+<head>
+        <style type="text/css">
+                body
+                {
+                    background-image: url('Math.jpg');
+                    background-repeat: repeat;
+                    background-size: cover;
+                }
+                </style>
+<title>LuasJajarGenjang</title>
+<script language="javascript">
+        function LJajarGenjang(){
+                 A=eval(document.kalk.value1.value);
+                 T=eval(document.kalk.value2.value);
+                 alert("Hasil Luas Jajar Genjang " + " = " + (A*T));
+        }
+</script>
+</head>
+<body> 
+        <center>
+        <h2><b>Menghitung Luas Jajar Genjang</b></h2>
+        <form  name="kalk" method="post">
+
+              <input type="inputbox" value="Alas" name="value1"><br><br>
+              <input type="inputbox" value="Tinggi" name="value2"><br><br>
+              <input type="button" value="Hasil" onClick="LJajarGenjang();">
+              <input type="reset" value="reset">
+
+        </form>
+        </center>
+</body>
+</html>
